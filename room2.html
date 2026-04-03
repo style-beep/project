@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .header {
+            background-color: #FFFFFF;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 80px;
+            gap: 20px;
+        }
+
+        .menu__left {
+            flex: 1;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .menu__ul {
+            display: flex;
+            list-style: none;
+            gap: 28px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu__link {
+            font-size: 15px;
+            font-weight: 500;
+            color: #000000;
+            text-decoration: none;
+            transition: color 0.2s ease;
+            padding: 8px 0;
+            display: inline-block;
+        }
+
+        .menu__link:hover {
+            color: #05a88d;
+        }
+
+        .menu__center {
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu__logo {
+            font-size: 26px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #000000;
+            text-decoration: none;
+            transition: opacity 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .menu__logo:hover {
+            opacity: 0.8;
+        }
+
+        .menu__right {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .menu__buttons {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .menu__signup,
+        .menu__login {
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 8px 20px;
+            border-radius: 40px;
+            transition: all 0.25s ease;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .menu__signup {
+            background-color: #05a88d;
+            color: #FFFFFF;
+            border: 1px solid #05a88d;
+        }
+
+        .menu__signup:hover {
+            background-color: #048b74;
+            border-color: #048b74;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(5, 168, 141, 0.2);
+        }
+
+        .menu__login {
+            background-color: transparent;
+            color: #000000;
+            border: 1px solid #e2e8f0;
+        }
+
+        .menu__login:hover {
+            border-color: #05a88d;
+            color: #05a88d;
+            background-color: rgba(5, 168, 141, 0.04);
+            transform: translateY(-1px);
+        }
+
+        @media (max-width: 900px) {
+            .menu {
+                flex-wrap: wrap;
+                padding: 16px 0;
+                gap: 16px;
+            }
+
+            .menu__left {
+                order: 1;
+                flex: auto;
+                justify-content: center;
+            }
+
+            .menu__center {
+                order: 0;
+                flex: 0 0 100%;
+                margin-bottom: 8px;
+            }
+
+            .menu__right {
+                order: 2;
+                flex: auto;
+                justify-content: center;
+            }
+
+            .menu__ul {
+                gap: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .menu__buttons {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .menu__left {
+                width: 100%;
+            }
+
+            .menu__ul {
+                gap: 16px;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .menu__right {
+                width: 100%;
+            }
+
+            .menu__buttons {
+                flex-direction: column;
+                width: 100%;
+                gap: 12px;
+            }
+
+            .menu__signup,
+            .menu__login {
+                width: 100%;
+                text-align: center;
+            }
+
+            .menu__center {
+                margin-bottom: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="menu">
+                <div class="menu__left">
+                    <ul class="menu__ul">
+                        <li class="menu__li">
+                            <a href="#" class="menu__link">Products</a>
+                        </li>
+                        <li class="menu__li">
+                            <a href="#" class="menu__link">About</a>
+                        </li>
+                        <li class="menu__li">
+                            <a href="#" class="menu__link">Blog</a>
+                        </li>
+                        <li class="menu__li">
+                            <a href="#" class="menu__link">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu__center">
+                    <a href="index.html" class="menu__logo">MYCOMPANY</a>
+                </div>
+                <div class="menu__right">
+                    <div class="menu__buttons">
+                        <a href="#" class="menu__signup">Sign Up</a>
+                        <a href="#" class="menu__login">Login</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>  
+</body>
+</html>
