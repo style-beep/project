@@ -18,7 +18,7 @@
 ## ✨ Демонстрация
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x450/1a1f3a/FFD894?text=🎲+Угадай+Число+🎲" alt="Скриншот игры" width="80%">
+  ![Геймплей игры Угадай число](./demo/gameplay.gif)
 </div>
 
 ---
