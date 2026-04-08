@@ -16,12 +16,15 @@
 ---
 
 ## ✨ Демонстрация
+## 🎮 Демонстрация игры
 
 <div align="center">
-![gameplay](https://github.com/user-attachments/assets/95e24946-46b6-450d-9a9e-6a7cd3ebfaa9)
-</div>  
-
-
+  
+  <img src="./demo/gameplay.gif" alt="Геймплей" width="650">
+  
+  *🎯 Игрок угадывает число с подсказками «холодно/горячо»*
+  </div>
+  
 ---
 
 ## 🎮 Об игре
