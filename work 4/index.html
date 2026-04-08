@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>🎯 Угадай число | Магическая игра</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="glow-orb"></div>
+    
+    <div class="game-wrapper">
+        <div class="game-card">
+            <div class="card-glow"></div>
+            
+            <div class="game-header">
+                <div class="icon-badge">🎲</div>
+                <h1>УГАДАЙ <span class="highlight">ЧИСЛО</span></h1>
+                <p class="subtitle">испытай свою интуицию</p>
+            </div>
+
+            <div class="range-section">
+                <div class="range-ring">
+                    <span class="range-label">диапазон</span>
+                    <div class="range-values">
+                        <span class="range-min">1</span>
+                        <span class="range-sep">—</span>
+                        <span class="range-max">100</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guess-section">
+                <div class="input-group">
+                    <div class="input-icon">🔢</div>
+                    <input type="number" id="guessInput" class="guess-input" placeholder="?" value="" autofocus>
+                    <div class="input-decoration"></div>
+                </div>
+                <button id="checkBtn" class="btn-primary">
+                    <span class="btn-text">ПРОВЕРИТЬ</span>
+                    <span class="btn-icon">✨</span>
+                </button>
+            </div>
+
+            <div class="message-container">
+                <div class="message-box" id="messageBox">
+                    <span class="message-icon">🌟</span>
+                    <span class="message-text">Введи число и нажми "Проверить"</span>
+                </div>
+            </div>
+
+            <div class="stats-panel">
+                <div class="stat-card">
+                    <div class="stat-icon">🎯</div>
+                    <div class="stat-info">
+                        <span class="stat-label">Попытки</span>
+                        <strong class="stat-value" id="attemptCount">0</strong>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📊</div>
+                    <div class="stat-info">
+                        <span class="stat-label">Прогресс</span>
+                        <strong class="stat-value" id="progressValue">0%</strong>
+                    </div>
+                </div>
+            </div>
+
+            <button id="newGameBtn" class="btn-secondary">
+                <span class="btn-icon">🔄</span>
+                <span class="btn-text">НОВАЯ ИГРА</span>
+            </button>
+
+            <div class="history-section">
+                <div class="history-header">
+                    <span>📜 История попыток</span>
+                    <span class="history-clear" id="clearHistoryBtn" title="Очистить историю">✖</span>
+                </div>
+                <div class="history" id="historyArea">
+                    <div class="history-empty">— пока ничего —</div>
+                </div>
+            </div>
+
+            <div class="footer-tip">
+                <span class="tip-icon">💡</span>
+                <span>холодно / тепло / горячо</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
