@@ -55,7 +55,7 @@ cd ugaday-chislo
 
 # Откройте index.html в браузере
 # (просто дважды кликните по файлу)
-
+---
 Вариант 2: Live Server в VS Code
 Установите расширение Live Server
 
@@ -63,6 +63,7 @@ cd ugaday-chislo
 
 Выберите Open with Live Server
 ```
+---
 ## 📜 Правила игры
 
 <div align="center">
