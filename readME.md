@@ -46,7 +46,7 @@
 
 ### Вариант 1: Локальный запуск
 
-```bash
+
 # Клонируйте репозиторий
 git clone https://github.com/ваш-username/ugaday-chislo.git
 
