@@ -18,7 +18,7 @@
 ## ✨ Демонстрация
 <div align="center">
 
-  <img src="(https://github.com/user-attachments/assets/43bfdeef-c278-401d-9c0e-2ede7e06c3e4)" alt="Геймплей" width="650">
+![Демо](./demo/gameplay.gif)
   
   *🎯 Игрок угадывает число с подсказками «холодно/горячо»*
   </div>
