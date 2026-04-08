@@ -48,7 +48,7 @@
 
 
 # Клонируйте репозиторий
-git clone https://github.com/ваш-username/ugaday-chislo.git
+git clone https://github.com/style-beep/ugaday-chislo.git
 
 # Перейдите в папку проекта
 cd ugaday-chislo
