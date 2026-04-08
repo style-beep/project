@@ -18,8 +18,9 @@
 ## ✨ Демонстрация
 
 <div align="center">
-  ![Геймплей игры Угадай число](./demo/gameplay.gif)
-</div>
+![gameplay](https://github.com/user-attachments/assets/95e24946-46b6-450d-9a9e-6a7cd3ebfaa9)
+</div>  
+
 
 ---
 
