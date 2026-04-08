@@ -43,7 +43,7 @@
 ---
 
 ## 🚀 Как играть
-
+```bash
 ### Вариант 1: Локальный запуск
 
 
@@ -62,7 +62,7 @@ cd ugaday-chislo
 Нажмите правой кнопкой на index.html
 
 Выберите Open with Live Server
-
+```
 ## 📜 Правила игры
 
 <div align="center">
